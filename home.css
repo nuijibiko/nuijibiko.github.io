@@ -275,24 +275,13 @@ nav {
         border-radius: 10%;
     
     }
-    @media screen and (max-width: 450px) {
-        .m1 {
-            width: 160px;
-            height: 200px;
-            flex-direction: column;
-
-        }
-        & .imginnn {
-            display: flex; 
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-         } 
+  
         
-    }
     @media screen and (max-width: 700px) {
         .m1 {
             flex-direction: column;
+            width: 200px;
+            height: 240px;
 
         }
         & .imginnn {
@@ -342,8 +331,8 @@ nav {
         }
         @media screen and (max-width: 700px) {
             .ig {
-                width: 130px;
-                height: 130px;
+                width: 100px;
+                height: 100px;
                 flex-direction: column;
                 margin: 30px;
 
