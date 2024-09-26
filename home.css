@@ -268,10 +268,10 @@ nav {
      } 
 
     & .m1 {
-        width: 180px;
-        height: 220px;
+        width: 170px;
+        height: 210px;
         flex-direction: column;
-        margin: 20px;
+        margin: 10px;
         border-radius: 10%;
     
     }
@@ -280,8 +280,8 @@ nav {
     @media screen and (max-width: 700px) {
         .m1 {
             flex-direction: column;
-            width: 130px;
-            height: 170px;
+            width: 120px;
+            height: 160px;
             margin: 5px;
 
         }
@@ -323,17 +323,17 @@ nav {
         }
 
         & .ig {
-            width: 160px;
-            height: 160px;
+            width: 150px;
+            height: 150px;
             flex-direction: column;
-            margin: 50px;
+            margin: 30px;
             border-radius: 20%;
            
         }
         @media screen and (max-width: 700px) {
             .ig {
-                width: 70px;
-                height: 70px;
+                width: 60px;
+                height: 60px;
                 flex-direction: column;
                 margin: 5px;
 
