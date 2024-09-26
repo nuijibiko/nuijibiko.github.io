@@ -365,7 +365,7 @@ nav {
         display: grid;
         grid-row: 1fr;
         justify-items: center;
-        margin: 80px 0px;
+        margin-top: 50px;
         font-size: 20px;
     }
     
@@ -377,12 +377,20 @@ nav {
         font-size: 20px;
     }
 
+    .box-input-text {
+        font-size: 15px;
+        background-color: #ddd5f3;
+    }
+    .api-post-box-sent-submit {
+        background-color: #b18cd7;
+    }
+
 .box-foot {
     display: flex;
     justify-content: center;
     background-color: #ff9967;
     align-items: center;
     font-size: 0.4rem;
-    color: #fff;
+    color: #000000;
     font-family: Lucidatypewriter, monospace;
 }
