@@ -113,8 +113,8 @@ nav {
 
 & .ggg {
     margin: 0px 0px;
-    width: 800px;
-    height: 400px;
+    width: 500px;
+    height: 250px;
     padding: 0 rem;
 }
 
@@ -126,8 +126,8 @@ nav {
     align-items: center;
 }
     & .infoo {
-        font-size: 1.3rem;
-        margin: 70px 10px;
+        font-size: 1.1rem;
+        /* margin: 70px 10px; */
         text-align: left;
         font-family: 'Courier New', Courier, monospace;
     }
