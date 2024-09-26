@@ -8,7 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #ff9967;
-    height: 70px;
+    height: 70px; 
     align-items: center;
     padding: 0 6rem;
     
@@ -47,6 +47,9 @@ nav {
         .box-pic-info {
             background-color: #ff0000;
         }
+        .menu {
+            font-size: 1rem;
+        }
     }
 }
 
@@ -57,10 +60,10 @@ nav {
     justify-content: center;
 }
 .banner-info img {
-    width: 350px;
+    width: 330px;
     /* margin-top: 40px; */
     border-radius: 80%;
-    margin: 40px;
+    margin: 30px;
     
 }
 .banner-info {
@@ -337,7 +340,7 @@ nav {
             border-radius: 20%;
            
         }
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 700px) {
             .ig {
                 width: 130px;
                 height: 130px;
