@@ -320,6 +320,7 @@ nav {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin: 50px 0px;
         }
 
         & .ig {
@@ -328,6 +329,7 @@ nav {
             flex-direction: column;
             margin: 15px;
             border-radius: 20%;
+
            
         }
         @media screen and (max-width: 700px) {
@@ -342,8 +344,11 @@ nav {
             
         }
 
-        .body5 {
+.body5 {
     background-color: #ddd5f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
     .box-api{
         display: flex;
@@ -356,3 +361,28 @@ nav {
         font-family: Lucidatypewriter, monospace;
 
     }
+    .tab {
+        display: grid;
+        grid-row: 1fr;
+        justify-items: center;
+        margin: 80px 0px;
+        font-size: 20px;
+    }
+    
+    .api-post {
+        display: grid;
+        grid-row: 1fr;
+        justify-items: center;
+        margin: 40px 0px;
+        font-size: 20px;
+    }
+
+.box-foot {
+    display: flex;
+    justify-content: center;
+    background-color: #ff9967;
+    align-items: center;
+    font-size: 0.4rem;
+    color: #fff;
+    font-family: Lucidatypewriter, monospace;
+}

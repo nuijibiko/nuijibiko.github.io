@@ -185,10 +185,74 @@
 
     </div>
 </section><div id="API"></div>
+
 <section class="body5">
+    <script src="nui.js"></script>
     <div class="box-api"> 
         <div class="api-head"><h2>API</h2></div>
     </div>
+    <div class="kable">
+        <div class="tab" >
+            <table border="4" width="400">
+                <colgroup>
+                    <col bgcolor="#92ca68" >
+                    <col bgcolor="#add88d" >
+                    <col bgcolor="#c8e6b2" >
 
+                </colgroup>
+                <tr class="ta" >
+                    <th align="center" >Sensor</th>
+                    <th align="center" >Value</th>
+                    <th align="center" >Unit</th>
+                </tr>
+                <tr  >
+                    <td align="center" >Timestamp</td>
+                    <td align="center" ><h1 id="temperature"></h1></td>
+                    <td align="center" >None</td>
+                </tr>
+                <tr class="ta" >
+                    <td align="center" >Temp</td>
+                    <td align="center" ><h1 id="luxsensor"></h1></td>
+                    <td align="center">°C</td>
+                </tr>
+                <tr class="ta" >
+                    <td align="center">Luxsensor</td>
+                    <td align="center" ><h1 id="humidity"></h1></td>
+                    <td align="center" >Lux</td>
+                </tr>
+                <tr class="ta" >
+                    <td align="center" >Humidity</td>
+                    <td align="center" ><h1 id="motion"></h1></td>
+                    <td align="center" >%RH</td>
+                </tr>
+                <tr class="ta" >
+                    <td align="center" >Motion</td>
+                    <td align="center"><h1 id="timestamp"></h1></td>
+                    <td align="center" >-</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div>
+        <div class="api-post">
+            <form onsubmit="event.preventDefault(); submitData();">
+                 <div class="api-post-box-name">
+                     <p class="text-titleonbox" >ID</p>
+                    <input class="box-input-text" type="text" id="studentId" required placeholder="Enter StudentID">
+            </div>
+            <div class="api-post-box-id">
+                <p class="text-titleonbox" >NAME</p>
+                <input class="box-input-text" type="text" id="studentName" required placeholder="Enter name">
+            </div>
+            <div class="api-post-box-sent">
+                <input class="api-post-box-sent-submit" type="submit" >
+            </div>
+        </div>    
+    </div>
 </section>
+<footer>
+    <div class="box-foot"> 
+        <div class="foot-last"><h2>copyright @2024 by nuijibiko</h2></div>
+    </div>
+</footer>
 </html>
